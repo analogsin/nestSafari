@@ -1,0 +1,171 @@
+h1{
+	color: black;
+	font-family: "Avenir-Medium";
+	font-size: 80px;
+}
+h2{
+	color: black;
+	font-family: "Avenir-Medium";
+	font-sixe: 60px;
+	text-align: left;
+	padding-top: 60px;
+}
+h4{
+	color: black;
+	font-family: "Avenir-Light";
+	font-sixe: 25px;
+	font-decoration: none;
+	text-align: left;
+	padding-top: 0px;
+}
+h5{
+	color: black;
+	font-family: "Avenir-Light";
+	font-sixe: 25px;
+	font-decoration: none;
+	text-align: center;
+	padding-top: 0px;
+
+}
+p{
+	color: black;
+	font-family: "Avenir-Light";
+	font-size: 15px;
+	letter-spacing: 40%;
+	line-height: 20px;
+
+}
+.form-items{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.nav-link{
+	color: white;
+	font-size: 15px;
+
+}
+.nav-link:hover{
+	color: #009D93;
+	text-decoration: underline;
+}
+.white-heading{
+
+	color: white;
+	text-align: left;
+	padding-left: 100px;
+}
+.btn-primary{
+	font-family: "Avenir-Medium"; 
+	border: none;
+	background-color: #009D93;
+	align:center;
+	display: flex;
+	
+}
+.btn-primary:hover{
+	background-color: #009D93;
+	border: none;
+}
+.jumbotron{
+	background-image: url("res/images/home1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.jumbotron-fluid{
+	display: flex;
+	letter-spacing: : -40%;
+	line-height: 123%;
+	font-family: "Avenir LT Std 65 Medium";
+	font-size: 15px;
+}
+.search-bar {
+  display: flex;
+  height: 120px;
+  background:white;
+  justify-content: center;
+  	letter-spacing: : -40%;
+	line-height: 123%;
+	font-family: "Avenir LT Std 65 Medium";
+	font-size: 15px;
+	align-self: center;
+}
+.search-container{
+	max-width: 800px;
+}
+form {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+input[type='text'] {
+  flex: 2 2 40%;
+}
+
+form > * {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 0;
+  background: white;
+}
+  /* set the text color for our content */
+
+  /* Remove the spacing around p tag in item class */
+  .item p {
+    margin:0;
+  }
+
+  .selected {
+    outline: 1px solid red;
+  }
+
+ /* configure the properties for location class */
+  .location {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight:bold;
+    color:brown;
+  }
+
+  /* configure the properties for title class */
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  /* configure the properties for price class */
+  .price {
+    font-size:14px;
+    font-weight:400;
+  }
+.card{
+	padding-right: none;
+	padding-left: none;
+	padding-top: none;
+	padding-bottom: none;
+	margin-left: 0;
+	margin-right: 0;
+
+}
+.no-padding{
+    padding-right:0;
+    padding-left:0;
+    padding-bottom: 0;
+    border:none;
+}
+.form-group{
+	display: flex;
+
+}
+.modal-body{
+	height: 250px;
+	padding: none;
+}
+.form-row{
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
